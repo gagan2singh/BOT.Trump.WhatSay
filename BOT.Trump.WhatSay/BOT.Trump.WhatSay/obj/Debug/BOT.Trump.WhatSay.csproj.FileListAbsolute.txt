@@ -1,0 +1,40 @@
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Bot Application.dll.config
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Bot Application.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Bot Application.pdb
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Autofac.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Chronic.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Bot.Builder.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Bot.Connector.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Newtonsoft.Json.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.Net.Http.Formatting.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.Web.Http.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.Web.Http.WebHost.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Autofac.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Bot.Builder.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Bot.Connector.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Newtonsoft.Json.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.Net.Http.Formatting.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.Web.Http.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\System.Web.Http.WebHost.xml
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\obj\Debug\BOT.Trump.WhatSay.csproj.CoreCompileInputs.cache
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\obj\Debug\Bot Application.dll
+C:\Gagan\vs2017\BOT.Trump.WhatSay\BOT.Trump.WhatSay\obj\Debug\Bot Application.pdb
