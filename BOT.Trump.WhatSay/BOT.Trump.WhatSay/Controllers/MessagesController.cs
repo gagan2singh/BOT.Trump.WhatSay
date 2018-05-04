@@ -5,6 +5,7 @@ using System.Web.Http;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using System;
+using BOT.Trump.WhatSay.Helper;
 
 namespace BOT.Trump.WhatSay
 {
@@ -23,7 +24,7 @@ namespace BOT.Trump.WhatSay
             }
             else
             {
-                HandleSystemMessageAsync(activity);
+                await HandleSystemMessageAsync(activity);
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
@@ -44,7 +45,11 @@ namespace BOT.Trump.WhatSay
                     if (newMember.Id != message.Recipient.Id)
                     {
                         var reply = message.CreateReply();
-                        reply.Text = "Ask me anything!!! Go Crazy";
+                        reply.Text = "Please wait while we load the Trump. It might take a while you know how much he speaks.";
+                        await client.Conversations.ReplyToActivityAsync(reply);
+                        BOTHelper.LoadTweetData();
+
+                        reply.Text = "Its done. Please type 'hi' to get started.";
                         await client.Conversations.ReplyToActivityAsync(reply);
                     }
                 }
