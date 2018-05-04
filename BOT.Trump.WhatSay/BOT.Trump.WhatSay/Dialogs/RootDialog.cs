@@ -101,7 +101,7 @@ namespace BOT.Trump.WhatSay.Dialogs
                     counter++;
                 }
 
-                await context.PostAsync($"*********--you can keep asking more by just typing--");
+                await context.PostAsync($"*--you can keep asking more by just typing--*");
                 context.Wait(StartConversation);
             }
             catch (Exception ex)
