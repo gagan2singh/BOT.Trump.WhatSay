@@ -88,4 +88,3 @@ C:\Gagan\Customers\Hackbot\TFS\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\MonAgentL
 C:\Gagan\Customers\Hackbot\TFS\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.Azure.KeyVault.Core.xml
 C:\Gagan\Customers\Hackbot\TFS\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.WindowsAzure.Storage.pdb
 C:\Gagan\Customers\Hackbot\TFS\BOT.Trump.WhatSay\BOT.Trump.WhatSay\bin\Microsoft.WindowsAzure.Storage.xml
-C:\Gagan\Customers\Hackbot\TFS\BOT.Trump.WhatSay\BOT.Trump.WhatSay\obj\Debug\BOT.Trump.WhatSay.csprojResolveAssemblyReference.cache

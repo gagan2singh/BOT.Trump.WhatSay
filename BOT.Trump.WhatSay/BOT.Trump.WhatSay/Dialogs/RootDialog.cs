@@ -55,60 +55,13 @@ namespace BOT.Trump.WhatSay.Dialogs
                 var activity = await result;
                 this.Name = Convert.ToString(activity);
                 await context.PostAsync($"Thanks " + activity + " Let's get started. Ask me something!!!");
-                context.Wait(StartConversation);
+                context.Call(new LuisDialog(), null);
             }
             catch (Exception ex)
             {
                 await context.PostAsync($"Failed with message: {ex.Message}");
                 context.Done(EndOfConversationCodes.ChannelFailed);
             }
-        }
-
-        /// <summary>
-        /// Get conversation started
-        /// </summary>
-        /// <param name="context">User context</param>
-        /// <param name="result">User result</param>
-        /// <returns></returns>
-        private async Task StartConversation(IDialogContext context, IAwaitable<IMessageActivity> result)
-        {
-            try
-            {
-                var activity = await result;
-                List<Tweet> getTweets = BOTHelper.ReturnTrumpTweet(activity.Text);
-                await context.PostAsync($"Well you know what Trump tweeted about the text you searched");
-
-                int count = 0;
-                int counter = 1;
-                foreach (Tweet trumpTweet in getTweets)
-                {
-                    if (count == 1)
-                    {
-                        await context.PostAsync($"hang On -- There's more");
-                    }
-                    if (count == 2)
-                    {
-                        await context.PostAsync($"And more");
-                    }
-                    if (count == 4)
-                    {
-                        await context.PostAsync($"This Guy can't keep quite");
-                    }
-
-                    // return our reply to the user
-                    await context.PostAsync($"" + counter + ". (" + trumpTweet.text + ")");
-                    count++;
-                    counter++;
-                }
-
-                await context.PostAsync($"*--you can keep asking more by just typing--*");
-                context.Wait(StartConversation);
-            }
-            catch (Exception ex)
-            {
-                await context.PostAsync($"Failed with message: {ex.Message}");
-                context.Done(EndOfConversationCodes.ChannelFailed);
-            }
-        }
+        }        
     }
 }

@@ -45,7 +45,7 @@ namespace BOT.Trump.WhatSay
                     if (newMember.Id != message.Recipient.Id)
                     {
                         var reply = message.CreateReply();
-                        reply.Text = "Please wait while we load the Trump. It might take a while you know how much he speaks.";
+                        reply.Text = "Please wait while we load the Trump tweet archive. It might take a while you know how much he speaks.";
                         await client.Conversations.ReplyToActivityAsync(reply);
                         BOTHelper.LoadTweetData();
 

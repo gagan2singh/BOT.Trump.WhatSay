@@ -72,7 +72,7 @@ namespace BOT.Trump.WhatSay.Helper
             {
                 foreach (Tweet tweetentry in TrumpTweets)
                 {
-                    if (tweetentry.text.Contains(userMessage.Split(' ')[i]))
+                    if (tweetentry.text.ToLower().Contains(userMessage.ToLower().Split(' ')[i]))
                     {
                         tweetentry.RelevanceScore++;
                     }
